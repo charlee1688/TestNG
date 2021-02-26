@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.hrms.tests.OrangeHRM_LoginTests">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Login_ValidUsername_ValidPassword"/>
+        </methods>
+      </class> <!-- com.hrms.tests.OrangeHRM_LoginTests -->
+      <class name="com.hrms.tests.TestCase_HRM_testNG">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.hrms.tests.TestCase_HRM_testNG -->
+      <class name="com.hrms.tests.openBrowser">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.hrms.tests.openBrowser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

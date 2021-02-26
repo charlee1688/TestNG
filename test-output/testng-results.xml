@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T00:16:05Z" name="Suite" finished-at="2021-02-25T00:16:10Z" duration-ms="4583">
+    <groups>
+      <group name="functest">
+        <method signature="priorityTesting.test2()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test2" class="com.hrms.tests.priorityTesting"/>
+        <method signature="priorityTesting.test4()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test4" class="com.hrms.tests.priorityTesting"/>
+        <method signature="priorityTesting.test7()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test7" class="com.hrms.tests.priorityTesting"/>
+      </group> <!-- functest -->
+      <group name="RegressionTest">
+        <method signature="priorityTesting.test6()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test6" class="com.hrms.tests.priorityTesting"/>
+      </group> <!-- RegressionTest -->
+      <group name="smokeTest">
+        <method signature="priorityTesting.test2()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test2" class="com.hrms.tests.priorityTesting"/>
+        <method signature="priorityTesting.test5()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test5" class="com.hrms.tests.priorityTesting"/>
+        <method signature="priorityTesting.test7()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" name="test7" class="com.hrms.tests.priorityTesting"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2021-02-25T00:16:05Z" name="Test" finished-at="2021-02-25T00:16:10Z" duration-ms="4583">
+      <class name="com.hrms.tests.openBrowser">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.hrms.tests.openBrowser@f14a7d4]" started-at="2021-02-24T19:16:05Z" name="beforeClass" finished-at="2021-02-24T19:16:10Z" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:0, instance:com.hrms.tests.openBrowser@f14a7d4]" started-at="2021-02-24T19:16:10Z" name="test1" finished-at="2021-02-24T19:16:10Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.hrms.tests.openBrowser@f14a7d4]" started-at="2021-02-24T19:16:10Z" name="afterClass" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.hrms.tests.openBrowser -->
+      <class name="com.hrms.tests.priorityTesting">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="test4" finished-at="2021-02-24T19:16:10Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test5()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="test5" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="test6" finished-at="2021-02-24T19:16:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test7()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="test7" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="test2" finished-at="2021-02-24T19:16:10Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.hrms.tests.priorityTesting@658c5a19]" started-at="2021-02-24T19:16:10Z" name="test1" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.hrms.tests.priorityTesting -->
+      <class name="com.hrms.tests.TestingAnnotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:05Z" name="beforeSuite" finished-at="2021-02-24T19:16:05Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:05Z" name="beforeTest" finished-at="2021-02-24T19:16:05Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="beforeClass" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testCase1()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="testCase1" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="afterMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="beforeMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCase2()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="testCase2" finished-at="2021-02-24T19:16:10Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="afterClass" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="afterMethod" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="afterTest" finished-at="2021-02-24T19:16:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.hrms.tests.TestingAnnotations@421e361]" started-at="2021-02-24T19:16:10Z" name="afterSuite" finished-at="2021-02-24T19:16:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.hrms.tests.TestingAnnotations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
