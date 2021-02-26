@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.UnexpectedTagNameException;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.hrms.testBase.Driver;
 import com.hrms.testBase.PageInitializer;
 
 public class CommonMethods extends PageInitializer{
